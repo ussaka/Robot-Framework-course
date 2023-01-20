@@ -1,0 +1,8 @@
+All:
+robot --variable SENDER_COM:COM5 --variable DECODER_COM:COM3 Morse.robot
+
+All but strict:
+robot --variable SENDER_COM:COM5 --variable DECODER_COM:COM3 --skip strict .
+
+Text only:
+robot --variable SENDER_COM:COM5 --variable DECODER_COM:COM3 --include text_only .
